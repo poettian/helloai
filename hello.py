@@ -1,6 +1,4 @@
-def main():
-    print("Hello from helloai!")
+from langchain_openai import ChatOpenAI
 
-
-if __name__ == "__main__":
-    main()
+llm = ChatOpenAI()
+print(llm.invoke("Hello, world!"))

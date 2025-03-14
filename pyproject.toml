@@ -18,3 +18,8 @@ dependencies = [
     "tavily-python>=0.5.1",
     "transformers>=4.49.0",
 ]
+
+[dependency-groups]
+dev = [
+    "python-dotenv[cli]>=1.0.1",
+]
